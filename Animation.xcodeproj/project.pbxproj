@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AD8C3D22388A3000EC8AEA /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3322388A3000EC8AEA /* UIViewXRadialGradient.swift */; };
+		14AD8C3E22388A3000EC8AEA /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3422388A3000EC8AEA /* UITextFieldX.swift */; };
+		14AD8C3F22388A3000EC8AEA /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3522388A3000EC8AEA /* UIButtonX.swift */; };
+		14AD8C4022388A3000EC8AEA /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3622388A3000EC8AEA /* UILabelX.swift */; };
+		14AD8C4122388A3000EC8AEA /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3722388A3000EC8AEA /* UIViewAnchorPoint.swift */; };
+		14AD8C4222388A3000EC8AEA /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3822388A3000EC8AEA /* UIViewControllerX.swift */; };
+		14AD8C4322388A3000EC8AEA /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3922388A3000EC8AEA /* UIImageViewX.swift */; };
+		14AD8C4422388A3000EC8AEA /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3A22388A3000EC8AEA /* UIViewX.swift */; };
+		14AD8C4522388A3000EC8AEA /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3B22388A3000EC8AEA /* UIVisualEffectViewX.swift */; };
+		14AD8C4622388A3000EC8AEA /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3C22388A3000EC8AEA /* UISliderX.swift */; };
+		14AD8C48223898E100EC8AEA /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C47223898E100EC8AEA /* FloatingActionButton.swift */; };
 		14FCA9FB223807AC00213793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA9FA223807AC00213793 /* AppDelegate.swift */; };
 		14FCA9FE223807AC00213793 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA9FD223807AC00213793 /* Model.swift */; };
 		14FCAA00223807AC00213793 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA9FF223807AC00213793 /* Data.swift */; };
-		14FCAA03223807AC00213793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FCAA01223807AC00213793 /* Main.storyboard */; };
 		14FCAA06223807AC00213793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FCAA05223807AC00213793 /* Main.storyboard */; };
 		14FCAA08223807AC00213793 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCAA07223807AC00213793 /* TableViewCell.swift */; };
 		14FCAA0B223807AC00213793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCAA0A223807AC00213793 /* ViewController.swift */; };
@@ -19,11 +29,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14FCA9F7223807AC00213793 /* Prototyping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototyping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AD8C3322388A3000EC8AEA /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		14AD8C3422388A3000EC8AEA /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		14AD8C3522388A3000EC8AEA /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		14AD8C3622388A3000EC8AEA /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		14AD8C3722388A3000EC8AEA /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		14AD8C3822388A3000EC8AEA /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		14AD8C3922388A3000EC8AEA /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		14AD8C3A22388A3000EC8AEA /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		14AD8C3B22388A3000EC8AEA /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		14AD8C3C22388A3000EC8AEA /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		14AD8C47223898E100EC8AEA /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		14FCA9F7223807AC00213793 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FCA9FA223807AC00213793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14FCA9FD223807AC00213793 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		14FCA9FF223807AC00213793 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		14FCAA02223807AC00213793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14FCAA05223807AC00213793 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		14FCAA07223807AC00213793 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		14FCAA0A223807AC00213793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +63,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AD8C3122388A0100EC8AEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14AD8C3222388A3000EC8AEA /* DesignableX */,
+				14FCAA0C223807AD00213793 /* Assets.xcassets */,
+				14AD8C47223898E100EC8AEA /* FloatingActionButton.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		14AD8C3222388A3000EC8AEA /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				14AD8C3322388A3000EC8AEA /* UIViewXRadialGradient.swift */,
+				14AD8C3422388A3000EC8AEA /* UITextFieldX.swift */,
+				14AD8C3522388A3000EC8AEA /* UIButtonX.swift */,
+				14AD8C3622388A3000EC8AEA /* UILabelX.swift */,
+				14AD8C3722388A3000EC8AEA /* UIViewAnchorPoint.swift */,
+				14AD8C3822388A3000EC8AEA /* UIViewControllerX.swift */,
+				14AD8C3922388A3000EC8AEA /* UIImageViewX.swift */,
+				14AD8C3A22388A3000EC8AEA /* UIViewX.swift */,
+				14AD8C3B22388A3000EC8AEA /* UIVisualEffectViewX.swift */,
+				14AD8C3C22388A3000EC8AEA /* UISliderX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
 		14FCA9EE223807AC00213793 = {
 			isa = PBXGroup;
 			children = (
-				14FCA9F9223807AC00213793 /* Prototyping */,
+				14FCA9F9223807AC00213793 /* Animation */,
 				14FCA9F8223807AC00213793 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,24 +101,22 @@
 		14FCA9F8223807AC00213793 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14FCA9F7223807AC00213793 /* Prototyping.app */,
+				14FCA9F7223807AC00213793 /* Animation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14FCA9F9223807AC00213793 /* Prototyping */ = {
+		14FCA9F9223807AC00213793 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				14AD8C3122388A0100EC8AEA /* Resources */,
 				14FCA9FA223807AC00213793 /* AppDelegate.swift */,
-				14FCAA01223807AC00213793 /* Main.storyboard */,
-				14FCAA0C223807AD00213793 /* Assets.xcassets */,
-				14FCAA0E223807AD00213793 /* LaunchScreen.storyboard */,
 				14FCAA11223807AE00213793 /* Info.plist */,
 				14FCA9FC223807AC00213793 /* Model */,
 				14FCAA04223807AC00213793 /* View */,
 				14FCAA09223807AC00213793 /* Controller */,
 			);
-			path = Prototyping;
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		14FCA9FC223807AC00213793 /* Model */ = {
@@ -86,6 +131,7 @@
 		14FCAA04223807AC00213793 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14FCAA0E223807AD00213793 /* LaunchScreen.storyboard */,
 				14FCAA05223807AC00213793 /* Main.storyboard */,
 				14FCAA07223807AC00213793 /* TableViewCell.swift */,
 			);
@@ -103,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14FCA9F6223807AC00213793 /* Prototyping */ = {
+		14FCA9F6223807AC00213793 /* Animation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14FCAA14223807AE00213793 /* Build configuration list for PBXNativeTarget "Prototyping" */;
+			buildConfigurationList = 14FCAA14223807AE00213793 /* Build configuration list for PBXNativeTarget "Animation" */;
 			buildPhases = (
 				14FCA9F3223807AC00213793 /* Sources */,
 				14FCA9F4223807AC00213793 /* Frameworks */,
@@ -115,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = Prototyping;
-			productName = Prototyping;
-			productReference = 14FCA9F7223807AC00213793 /* Prototyping.app */;
+			name = Animation;
+			productName = Animation;
+			productReference = 14FCA9F7223807AC00213793 /* Animation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14FCA9F2223807AC00213793 /* Build configuration list for PBXProject "Prototyping" */;
+			buildConfigurationList = 14FCA9F2223807AC00213793 /* Build configuration list for PBXProject "Animation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14FCA9F6223807AC00213793 /* Prototyping */,
+				14FCA9F6223807AC00213793 /* Animation */,
 			);
 		};
 /* End PBXProject section */
@@ -158,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FCAA03223807AC00213793 /* Main.storyboard in Resources */,
 				14FCAA10223807AD00213793 /* LaunchScreen.storyboard in Resources */,
 				14FCAA0D223807AD00213793 /* Assets.xcassets in Resources */,
 				14FCAA06223807AC00213793 /* Main.storyboard in Resources */,
@@ -172,9 +217,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AD8C4122388A3000EC8AEA /* UIViewAnchorPoint.swift in Sources */,
+				14AD8C4022388A3000EC8AEA /* UILabelX.swift in Sources */,
 				14FCAA0B223807AC00213793 /* ViewController.swift in Sources */,
+				14AD8C48223898E100EC8AEA /* FloatingActionButton.swift in Sources */,
 				14FCA9FB223807AC00213793 /* AppDelegate.swift in Sources */,
+				14AD8C3D22388A3000EC8AEA /* UIViewXRadialGradient.swift in Sources */,
 				14FCAA08223807AC00213793 /* TableViewCell.swift in Sources */,
+				14AD8C4622388A3000EC8AEA /* UISliderX.swift in Sources */,
+				14AD8C4222388A3000EC8AEA /* UIViewControllerX.swift in Sources */,
+				14AD8C3F22388A3000EC8AEA /* UIButtonX.swift in Sources */,
+				14AD8C4522388A3000EC8AEA /* UIVisualEffectViewX.swift in Sources */,
+				14AD8C3E22388A3000EC8AEA /* UITextFieldX.swift in Sources */,
+				14AD8C4322388A3000EC8AEA /* UIImageViewX.swift in Sources */,
+				14AD8C4422388A3000EC8AEA /* UIViewX.swift in Sources */,
 				14FCAA00223807AC00213793 /* Data.swift in Sources */,
 				14FCA9FE223807AC00213793 /* Model.swift in Sources */,
 			);
@@ -183,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		14FCAA01223807AC00213793 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14FCAA02223807AC00213793 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		14FCAA0E223807AD00213793 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -324,12 +372,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 232776J4C5;
-				INFOPLIST_FILE = Prototyping/Info.plist;
+				INFOPLIST_FILE = Animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noura.Prototyping;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noura.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,12 +390,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 232776J4C5;
-				INFOPLIST_FILE = Prototyping/Info.plist;
+				INFOPLIST_FILE = Animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noura.Prototyping;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noura.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14FCA9F2223807AC00213793 /* Build configuration list for PBXProject "Prototyping" */ = {
+		14FCA9F2223807AC00213793 /* Build configuration list for PBXProject "Animation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14FCAA12223807AE00213793 /* Debug */,
@@ -366,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14FCAA14223807AE00213793 /* Build configuration list for PBXNativeTarget "Prototyping" */ = {
+		14FCAA14223807AE00213793 /* Build configuration list for PBXNativeTarget "Animation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14FCAA15223807AE00213793 /* Debug */,

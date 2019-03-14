@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Prototyping
+//  Animation
 //
 //  Created by Noura Aziz on 3/12/19.
 //  Copyright © 2019 Noura Aziz. All rights reserved.

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Prototyping.xcodeproj">
+      location = "self:/Users/macbook/Desktop/iOS/MyApps/Animation/Animation.xcodeproj">
    </FileRef>
 </Workspace>
