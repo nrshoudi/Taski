@@ -17,4 +17,14 @@ class Data {
             }
         }
     }
+    
+    static func getDayAndWeather(completion: @escaping (DayWeatherModel?) -> ()) {
+        DispatchQueue.global(qos: .userInteractive).async {
+            let data = DayWeatherModel(dayName: "Sunday", longDate: "March 17, 2019", tempreture: "16°", city: "San Francisco", weatherIcon: UIImage(named: "sun"))
+           
+            DispatchQueue.main.async {
+                completion(data)
+            }
+        }
+    }
 }

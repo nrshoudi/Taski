@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A9EA60223D889000CAB5BA /* DayWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9EA5F223D889000CAB5BA /* DayWeatherModel.swift */; };
+		14A9EA62223DC63B00CAB5BA /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14A9EA61223DC63B00CAB5BA /* Ubuntu-Light.ttf */; };
 		14AD8C3D22388A3000EC8AEA /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3322388A3000EC8AEA /* UIViewXRadialGradient.swift */; };
 		14AD8C3E22388A3000EC8AEA /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3422388A3000EC8AEA /* UITextFieldX.swift */; };
 		14AD8C3F22388A3000EC8AEA /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD8C3522388A3000EC8AEA /* UIButtonX.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14A9EA5F223D889000CAB5BA /* DayWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherModel.swift; sourceTree = "<group>"; };
+		14A9EA61223DC63B00CAB5BA /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		14AD8C3322388A3000EC8AEA /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
 		14AD8C3422388A3000EC8AEA /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
 		14AD8C3522388A3000EC8AEA /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		14AD8C3122388A0100EC8AEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				14A9EA61223DC63B00CAB5BA /* Ubuntu-Light.ttf */,
 				14AD8C3222388A3000EC8AEA /* DesignableX */,
 				14FCAA0C223807AD00213793 /* Assets.xcassets */,
 				14AD8C47223898E100EC8AEA /* FloatingActionButton.swift */,
@@ -124,6 +129,7 @@
 			children = (
 				14FCA9FD223807AC00213793 /* Model.swift */,
 				14FCA9FF223807AC00213793 /* Data.swift */,
+				14A9EA5F223D889000CAB5BA /* DayWeatherModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A9EA62223DC63B00CAB5BA /* Ubuntu-Light.ttf in Resources */,
 				14FCAA10223807AD00213793 /* LaunchScreen.storyboard in Resources */,
 				14FCAA0D223807AD00213793 /* Assets.xcassets in Resources */,
 				14FCAA06223807AC00213793 /* Main.storyboard in Resources */,
@@ -228,6 +235,7 @@
 				14AD8C4222388A3000EC8AEA /* UIViewControllerX.swift in Sources */,
 				14AD8C3F22388A3000EC8AEA /* UIButtonX.swift in Sources */,
 				14AD8C4522388A3000EC8AEA /* UIVisualEffectViewX.swift in Sources */,
+				14A9EA60223D889000CAB5BA /* DayWeatherModel.swift in Sources */,
 				14AD8C3E22388A3000EC8AEA /* UITextFieldX.swift in Sources */,
 				14AD8C4322388A3000EC8AEA /* UIImageViewX.swift in Sources */,
 				14AD8C4422388A3000EC8AEA /* UIViewX.swift in Sources */,
