@@ -10,12 +10,26 @@ class Data {
     static func getData(completion: @escaping ([Model]) -> ()) {
         DispatchQueue.global(qos: .userInteractive).async {
             var data = [Model]()
-            data.append(Model(title: "Title", subTitle: "Subtitle", image: nil, data1: "Data1", data2: "Data2"))
+            data.append(Model(title: "Finish Home Screen", subTitle: "Web app", images: [], data1: "8", data2: "AM"))
+            data.append(Model(title: "Launch Break", subTitle: "", images: [], data1: "11", data2: "AM"))
+            data.append(Model(title: "Design Start Up", subTitle: "Hangouts", images: getImage(), data1: "2", data2: "PM"))
+            
+            
             
             DispatchQueue.main.async {
                 completion(data)
             }
         }
+    }
+    
+    static func getImage() -> [UIImage] {
+        var images = [UIImage]()
+        
+        images.append(UIImage(named: "profile1")!)
+        images.append(UIImage(named: "profile2")!)
+        images.append(UIImage(named: "profile3")!)
+        
+        return images
     }
     
     static func getDayAndWeather(completion: @escaping (DayWeatherModel?) -> ()) {

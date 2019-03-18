@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.tableFooterView = UIView()
         
         Data.getDayAndWeather { (data) in
@@ -38,6 +39,8 @@ class ViewController: UIViewController {
         Data.getData { (data) in
             self.tableData = data
             self.tableView.reloadData()
+            
+            self.animateTableCells()
         }
         
         closeMenu()
@@ -73,6 +76,22 @@ class ViewController: UIViewController {
             })
         
     }
+    func animateTableCells() {
+        let cells = tableView.visibleCells
+        
+        for cell in cells {
+            cell.transform = CGAffineTransform(translationX: view.frame.width, y: 0)
+        }
+        
+        var delay = 0.5
+        for cell in cells {
+            UIView.animate(withDuration: 0.2, delay: delay, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: [], animations: {
+                cell.transform = .identity
+            })
+            
+            delay += 0.15
+        }
+    }
     
     func closeMenu() {
         menuView.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
@@ -88,15 +107,33 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UITableViewDataSource {
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell") as! TableViewCell
+        let model = tableData[indexPath.row]
+        var cell: TableViewCell!
+        
+        if model.images.count > 0 {
+            cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCellWithImages") as? TableViewCell
+        } else {
+            cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell") as? TableViewCell
+        }
+        
         cell.setup(model: tableData[indexPath.row])
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let model = tableData[indexPath.row]
+        
+        if model.images.count > 0 {
+            return 100
+        }
+        
+        return 70
     }
 }
