@@ -1,0 +1,6 @@
+framework module Pods_Taski {
+  umbrella header "Pods-Taski-umbrella.h"
+
+  export *
+  module * { export * }
+}
