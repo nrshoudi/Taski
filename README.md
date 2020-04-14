@@ -5,5 +5,5 @@
 
 
 ## Project overview
-This iOS project consists of a single UIViewController that inspired by Anton Aheichanka's design in Dribbble [here](https://dribbble.com/shots/1928064-Secret-Project).
+Taski is a To-Do list app to add tasks and events with a weather status feature. App design is inspired by nton Aheichanka in Dribbble [here](https://dribbble.com/shots/1928064-Secret-Project).
 
